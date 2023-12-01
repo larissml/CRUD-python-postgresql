@@ -1,4 +1,4 @@
-<h1>Título do Repositório: Projeto de CRUD Python com PostgreSQL</h1>
+<h1>Projeto de CRUD Python com PostgreSQL</h1>
 
 <p><strong>Descrição:</strong></p>
 
