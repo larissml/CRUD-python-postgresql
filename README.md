@@ -6,7 +6,7 @@
 
 <ol>
   <li>
-    <strong>Módulo de Acesso ao Banco de Dados:</strong> Este módulo (acessoBd.py) é responsável por estabelecer a conexão com o banco de dados PostgreSQL utilizando a biblioteca psycopg2. Ele apresenta funções para criar a tabela necessária (createTable()), realizar operações de inserção (insert()), atualização (updateNome(), updateAlbuns(), updateMedia(), updateData()) e exclusão (delete()), e também consultas (selectUma(), <code>selectGeral()) para buscar informações no banco de dados.
+    <strong>Módulo de Acesso ao Banco de Dados:</strong> Este módulo (acessoBd.py) é responsável por estabelecer a conexão com o banco de dados PostgreSQL utilizando a biblioteca psycopg2. Ele apresenta funções para criar a tabela necessária (createTable()), realizar operações de inserção (insert()), atualização (updateNome(), updateAlbuns(), updateMedia(), updateData()) e exclusão (delete()), e também consultas (selectUma(), selectGeral()) para buscar informações no banco de dados.
   </li>
   <li>
     <strong>Módulo de Menu para Usuários:</strong> O segundo módulo é uma interface de usuário implementada no próprio script Python, permitindo que os usuários interajam com as funcionalidades do CRUD. Ele apresenta um menu interativo com opções para inserir, atualizar, deletar e buscar informações das cantoras no banco de dados.
