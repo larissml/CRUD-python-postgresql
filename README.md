@@ -6,11 +6,11 @@
 
 <ol>
   <li>
-    <strong>Módulo de Acesso ao Banco de Dados:</strong> Este módulo, <code>acessoBd.py</code>, é responsável por estabelecer a conexão com o banco de dados PostgreSQL utilizando a biblioteca psycopg2. Ele apresenta funções para criar a tabela necessária (<code>createTable()</code>), realizar operações de inserção (<code>insert()</code>), atualização (<code>updateNome()</code>, <code>updateAlbuns()</code>, <code>updateMedia()</code>, <code>updateData()</code>) e exclusão (<code>delete()</code>), bem como consultas (<code>selectUma()</code>, <code>selectGeral()</code>) para buscar informações no banco de dados.
+    <strong>Módulo de Acesso ao Banco de Dados:</strong> Este módulo (acessoBd.py) é responsável por estabelecer a conexão com o banco de dados PostgreSQL utilizando a biblioteca psycopg2. Ele apresenta funções para criar a tabela necessária (createTable()), realizar operações de inserção (insert()), atualização (updateNome(), updateAlbuns(), updateMedia(), updateData()) e exclusão (delete()), e também consultas (selectUma(), <code>selectGeral()) para buscar informações no banco de dados.
   </li>
   <li>
     <strong>Módulo de Menu para Usuários:</strong> O segundo módulo é uma interface de usuário implementada no próprio script Python, permitindo que os usuários interajam com as funcionalidades do CRUD. Ele apresenta um menu interativo com opções para inserir, atualizar, deletar e buscar informações das cantoras no banco de dados.
   </li>
 </ol>
 
-<p>O projeto ilustra a aplicação prática das operações CRUD em Python com PostgreSQL, oferecendo exemplos de como criar, acessar, modificar e excluir dados de um banco de dados relacional. O objetivo deste repositório é fornecer um exemplo funcional de como implementar um sistema de CRUD utilizando Python e PostgreSQL, facilitando a interação e manipulação de dados de forma eficiente.</p>
+<p>O projeto mostra a aplicação das operações CRUD em Python com PostgreSQL, com exemplos de como criar, acessar, modificar e excluir dados de um banco de dados relacional. O objetivo desse repositório é trazer um exemplo de como implementar um sistema de CRUD utilizando Python e PostgreSQL, facilitando a interação e manipulação de dados de forma eficiente.</p>
