@@ -1,6 +1,6 @@
 import psycopg2
 
-#QUERYS DO BD
+#QUERIES DO BD
 create_table_query = "CREATE TABLE cantoras (codigo SERIAL PRIMARY KEY, nome VARCHAR(100), quantidadeAlbuns INT, media_por_musica NUMERIC(9,2), dataProximo_lancamento DATE)"
 insertQuery = "INSERT INTO cantoras (nome, quantidadeAlbuns, media_por_musica, dataProx_lancamento) VALUES (%s, %s, %s, %s)"
 updateNomeQuery = "UPDATE cantoras SET nome = %s WHERE codigo = %s"
